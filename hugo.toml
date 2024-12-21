@@ -1,4 +1,4 @@
-baseurl = "https://jason23g.github.io/MyPortofolio/"
+baseurl = "https://jason23g.github.io/"
 languageCode = "en-us"
 # Add it only if you keep the theme in the `themes` directory.
 # Remove it if you use the theme as a remote Hugo Module.
@@ -75,15 +75,15 @@ pagination.pagerSize = 5
 
       [languages.en.params.logo]
         logoText = "Crypto CTF"
-        logoHomeLink = "/"
+        logoHomeLink = "/MyPortofolio"
 
       [languages.en.menu]
         [[languages.en.menu.main]]
           identifier = "about"
           name = "About"
-          url = "/about"
+          url = "MyPortofolio/about"
        [[languages.en.menu.main]]
           identifier = "Blog_Posts"
           name = "Blog Posts"
-          url = "/blog_posts"
+          url = "MyPortofolio/blog_posts"
 
