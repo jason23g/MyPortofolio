@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog_posts on My Portofolio</title>
-    <link>http://localhost:1313/MyPortofolio/blog_posts/</link>
+    <link>https://jason23g.github.io/MyPortofolio/blog_posts/</link>
     <description>Recent content in Blog_posts on My Portofolio</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Sat, 21 Dec 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/MyPortofolio/blog_posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://jason23g.github.io/MyPortofolio/blog_posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Crypto Writeup</title>
-      <link>http://localhost:1313/MyPortofolio/blog_posts/crypto-writeup/</link>
+      <link>https://jason23g.github.io/MyPortofolio/blog_posts/crypto-writeup/</link>
       <pubDate>Sat, 21 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/MyPortofolio/blog_posts/crypto-writeup/</guid>
+      <guid>https://jason23g.github.io/MyPortofolio/blog_posts/crypto-writeup/</guid>
       <description></description>
     </item>
     <item>
       <title>Crypto CTF guide</title>
-      <link>http://localhost:1313/MyPortofolio/blog_posts/tucsec-crypto-ctf-get-started-guide/</link>
+      <link>https://jason23g.github.io/MyPortofolio/blog_posts/tucsec-crypto-ctf-get-started-guide/</link>
       <pubDate>Thu, 19 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/MyPortofolio/blog_posts/tucsec-crypto-ctf-get-started-guide/</guid>
+      <guid>https://jason23g.github.io/MyPortofolio/blog_posts/tucsec-crypto-ctf-get-started-guide/</guid>
       <description>&lt;h2 id=&#34;cryptography-crypto&#34;&gt;Cryptography (crypto)&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;[ Overview ]&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Discover and exploit vulnerabilities in the implementations of cryptographic algorithms and protocols.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;[ Tools ]&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;I would suggest building your own crypto ctf environment via virtual environments such as Mamba and conda, it would be easier to install python packages and specific versions of them as well as other cryptographic tools such as sage.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.pycryptodome.org&#34;&gt;PyCryptodome&lt;/a&gt; - A very fundamental python library to solve many crypto ctfs&lt;/p&gt;</description>
     </item>
   </channel>
