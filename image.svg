@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="400" viewBox="0 0 800 400">
+  <style>
+    .typing {
+      font: 16px Arial, sans-serif;
+      fill: #2c3e50;
+      white-space: pre;
+    }
+    .cursor {
+      font: 16px Arial, sans-serif;
+      fill: #2c3e50;
+      animation: blink 1s step-start infinite;
+    }
+    @keyframes blink {
+      50% { opacity: 0; }
+    }
+  </style>
+  <rect width="100%" height="100%" fill="#ecf0f1"/>
+  <text x="20" y="40" class="typing">
+    <tspan id="line1"></tspan>
+    <tspan x="20" dy="20" id="line2"></tspan>
+    <tspan x="20" dy="20" id="line3"></tspan>
+    <tspan x="20" dy="20" id="line4"></tspan>
+    <tspan x="20" dy="40" id="line5"></tspan>
+    <tspan x="20" dy="20" id="line6"></tspan>
+    <tspan x="20" dy="20" id="line7"></tspan>
+    <tspan x="20" dy="40" id="line8"></tspan>
+    <tspan x="20" dy="20" id="line9"></tspan>
+    <tspan x="20" dy="20" id="line10"></tspan>
+  </text>
+  <text x="20" y="40" class="cursor" id="cursor">|</text>
+
+  <script>
+    const lines = [
+      "Hi, I am Jason, a graduate of the",
+      "Electrical and Computer Engineering (ECE)",
+      "department of Technical University of Crete (TUC).",
+      "I work as a Hardware R&D engineer in the",
+      "Computer Architecture and VLSI Systems (CARV)",
+      "Laboratory of the Institute of Computer Science (ICS), FORTH.",
+      "My diploma thesis was in hardware security, and",
+      "my main fields of interest lie in hardware, embedded systems,",
+      "cybersecurity, and cryptography. In addition, I like participating",
+      "in various CTF competitions and playing challenges on CTF platforms.",
+    ];
+
+    const typingSpeed = 50; // Speed of typing (ms per character)
+    const lineDelay = 1000; // Delay before starting the next line (ms)
+
+    let currentLine = 0;
+    let currentChar = 0;
+
+    function type() {
+      if (currentLine < lines.length) {
+        const lineElement = document.getElementById(`line${currentLine + 1}`);
+        if (currentChar < lines[currentLine].length) {
+          lineElement.textContent += lines[currentLine][currentChar];
+          currentChar++;
+          setTimeout(type, typingSpeed);
+        } else {
+          currentChar = 0;
+          currentLine++;
+          setTimeout(type, lineDelay);
+        }
+      } else {
+        document.getElementById("cursor").style.display = "none";
+      }
+    }
+
+    type();
+  </script>
+</svg>
