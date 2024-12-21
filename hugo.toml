@@ -75,7 +75,7 @@ pagination.pagerSize = 5
 
       [languages.en.params.logo]
         logoText = "Crypto CTF"
-        logoHomeLink = "/MyPortofolio"
+        logoHomeLink = "MyPortofolio"
 
       [languages.en.menu]
         [[languages.en.menu.main]]
