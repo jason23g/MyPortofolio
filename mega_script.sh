@@ -77,6 +77,10 @@ fi
 
 # Step 6: Commit changes with a dynamic message
 commit_message="New Blog Post on $(date +'%Y-%m-%d %H:%M:%S')"
+if [[ "$1" == 1 ]]; then
+    commit_message="Minor fixes"
+fi
+
 if git diff --cached --quiet; then
     echo "No changes to commit."
 else
