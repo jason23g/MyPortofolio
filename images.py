@@ -4,7 +4,7 @@ import shutil
 
 # Paths
 posts_dir = "/home/jason/My_Portofolio/content/blog_posts"
-images_dir = "/home/jason/Documents/Obsidian\ Vault/"
+images_dir = "/home/jason/Documents/Obsidian Vault/"
 static_images_dir = "/home/jason/My_Portofolio/static/images/"
 
 # Step 1: Process each markdown file in the posts directory
