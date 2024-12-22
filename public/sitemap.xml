@@ -2,38 +2,38 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/</loc>
+    <loc>//localhost/</loc>
     <lastmod>2024-12-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/blog_posts/</loc>
+    <loc>//localhost/blog_posts/</loc>
     <lastmod>2024-12-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/blog_posts/crypto-writeup/</loc>
+    <loc>//localhost/blog_posts/crypto-writeup/</loc>
     <lastmod>2024-12-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/tag1/</loc>
+    <loc>//localhost/tags/tag1/</loc>
     <lastmod>2024-12-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/tag2/</loc>
+    <loc>//localhost/tags/tag2/</loc>
     <lastmod>2024-12-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/</loc>
+    <loc>//localhost/tags/</loc>
     <lastmod>2024-12-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/crypto/</loc>
+    <loc>//localhost/tags/crypto/</loc>
     <lastmod>2024-12-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/blog_posts/tucsec-crypto-ctf-get-started-guide/</loc>
+    <loc>//localhost/blog_posts/tucsec-crypto-ctf-get-started-guide/</loc>
     <lastmod>2024-12-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/ctf/</loc>
+    <loc>//localhost/tags/ctf/</loc>
     <lastmod>2024-12-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/guide/</loc>
+    <loc>//localhost/tags/guide/</loc>
     <lastmod>2024-12-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/about/</loc>
+    <loc>//localhost/about/</loc>
   </url><url>
-    <loc>/categories/</loc>
+    <loc>//localhost/categories/</loc>
   </url>
 </urlset>
