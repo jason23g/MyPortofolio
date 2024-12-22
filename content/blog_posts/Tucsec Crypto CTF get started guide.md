@@ -7,7 +7,7 @@ tags:
   - Guide
   - CTF
 ---
-!![Image Description](/images/Pasted%20image%2020241222123845.png)
+!![Image Description](/images/intro.png)
 ##  Cryptography (crypto)
 
 * **[ Overview ]**
