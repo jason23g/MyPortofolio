@@ -6,11 +6,11 @@ SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 cd "$SCRIPT_DIR"
 
 # Set variables for Obsidian to Hugo copy
-sourcePath="/Users/path/to/obsidian/posts"
-destinationPath="/Users/path/to/hugo/posts"
+sourcePath="/home/jason/Documents/Obsidian Vault/blog_posts"
+destinationPath="/home/jason/My_Portofolio/content/blog_posts"
 
 # Set GitHub Repo
-myrepo="reponame"
+myrepo="https://github.com/jason23g/MyPortofolio"
 
 # Check for required commands
 for cmd in git rsync python3 hugo; do
@@ -93,21 +93,21 @@ fi
 
 # Step 8: Push the public folder to the hostinger branch using subtree split and force push
 echo "Deploying to GitHub Hostinger..."
-if git branch --list | grep -q 'hostinger-deploy'; then
-    git branch -D hostinger-deploy
+if git branch --list | grep -q 'MyPortofolio-deploy'; then
+    git branch -D MyPortofolio-deploy
 fi
 
-if ! git subtree split --prefix public -b hostinger-deploy; then
+if ! git subtree split --prefix public -b MyPortofolio-deploy; then
     echo "Subtree split failed."
     exit 1
 fi
 
-if ! git push origin hostinger-deploy:hostinger --force; then
+if ! git push origin MyPortofolio_deploy:MyPortofolioPublic --force; then
     echo "Failed to push to hostinger branch."
-    git branch -D hostinger-deploy
+    git branch -D MyPortofolio_deploy
     exit 1
 fi
 
-git branch -D hostinger-deploy
+git branch -D MyPortofolio_deploy
 
 echo "All done! Site synced, processed, committed, built, and deployed."
