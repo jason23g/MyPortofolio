@@ -93,17 +93,17 @@ fi
 
 # Step 8: Push the public folder to the hostinger branch using subtree split and force push
 echo "Deploying to GitHub Hostinger..."
-if git branch --list | grep -q 'MyPortofolio-deploy'; then
-    git branch -D MyPortofolio-deploy
+if git branch --list | grep -q 'MyPortofolio_deploy'; then
+    git branch -D MyPortofolio_deploy
 fi
 
-if ! git subtree split --prefix public -b MyPortofolio-deploy; then
+if ! git subtree split --prefix public -b MyPortofolio_deploy; then
     echo "Subtree split failed."
     exit 1
 fi
 
 if ! git push origin MyPortofolio_deploy:MyPortofolioPublic --force; then
-    echo "Failed to push to hostinger branch."
+    echo "Failed to push to MyPortofolioPublic branch."
     git branch -D MyPortofolio_deploy
     exit 1
 fi
