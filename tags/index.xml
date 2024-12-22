@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on My Portofolio</title>
-    <link>https://jason23g.github.io/MyPortofolio/tags/</link>
+    <link>/tags/</link>
     <description>Recent content in Tags on My Portofolio</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Sat, 21 Dec 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://jason23g.github.io/MyPortofolio/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tag1</title>
-      <link>https://jason23g.github.io/MyPortofolio/tags/tag1/</link>
+      <link>/tags/tag1/</link>
       <pubDate>Sat, 21 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://jason23g.github.io/MyPortofolio/tags/tag1/</guid>
+      <guid>/tags/tag1/</guid>
       <description></description>
     </item>
     <item>
       <title>Tag2</title>
-      <link>https://jason23g.github.io/MyPortofolio/tags/tag2/</link>
+      <link>/tags/tag2/</link>
       <pubDate>Sat, 21 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://jason23g.github.io/MyPortofolio/tags/tag2/</guid>
+      <guid>/tags/tag2/</guid>
       <description></description>
     </item>
     <item>
       <title>Crypto</title>
-      <link>https://jason23g.github.io/MyPortofolio/tags/crypto/</link>
+      <link>/tags/crypto/</link>
       <pubDate>Thu, 19 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://jason23g.github.io/MyPortofolio/tags/crypto/</guid>
+      <guid>/tags/crypto/</guid>
       <description></description>
     </item>
     <item>
       <title>CTF</title>
-      <link>https://jason23g.github.io/MyPortofolio/tags/ctf/</link>
+      <link>/tags/ctf/</link>
       <pubDate>Thu, 19 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://jason23g.github.io/MyPortofolio/tags/ctf/</guid>
+      <guid>/tags/ctf/</guid>
       <description></description>
     </item>
     <item>
       <title>Guide</title>
-      <link>https://jason23g.github.io/MyPortofolio/tags/guide/</link>
+      <link>/tags/guide/</link>
       <pubDate>Thu, 19 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://jason23g.github.io/MyPortofolio/tags/guide/</guid>
+      <guid>/tags/guide/</guid>
       <description></description>
     </item>
   </channel>
