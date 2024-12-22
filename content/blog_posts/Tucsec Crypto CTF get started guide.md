@@ -8,7 +8,7 @@ tags:
   - CTF
 ---
 
-!![Image Description](/images//MyPortofolio/intro.png)
+!![Alternate Text](/images/intro.png)
 
 ##  Cryptography (crypto)
 
