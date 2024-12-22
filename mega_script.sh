@@ -6,8 +6,8 @@ SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 cd "$SCRIPT_DIR"
 
 # Set variables for Obsidian to Hugo copy
-sourcePath="/home/jason/Documents/Obsidian Vault/blog_posts"
-destinationPath="/home/jason/My_Portofolio/content/blog_posts"
+sourcePath="/home/jason/Documents/Obsidian Vault/blog_posts/"
+destinationPath="/home/jason/My_Portofolio/content/blog_posts/"
 
 # Set GitHub Repo
 myrepo="https://github.com/jason23g/MyPortofolio"
@@ -92,7 +92,7 @@ if ! git push origin master; then
 fi
 
 # Step 8: Push the public folder to the hostinger branch using subtree split and force push
-echo "Deploying to GitHub Hostinger..."
+echo "Deploying to GitHub MyPortofolio deploy..."
 if git branch --list | grep -q 'MyPortofolio_deploy'; then
     git branch -D MyPortofolio_deploy
 fi

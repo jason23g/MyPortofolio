@@ -10,13 +10,6 @@
     <atom:link href="/blog_posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Crypto Writeup</title>
-      <link>/blog_posts/blog_posts/crypto-writeup/</link>
-      <pubDate>Sat, 21 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>/blog_posts/blog_posts/crypto-writeup/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Crypto Writeup</title>
       <link>/blog_posts/crypto-writeup/</link>
       <pubDate>Sat, 21 Dec 2024 00:00:00 +0000</pubDate>
       <guid>/blog_posts/crypto-writeup/</guid>
@@ -24,17 +17,10 @@
     </item>
     <item>
       <title>Crypto CTF guide</title>
-      <link>/blog_posts/blog_posts/tucsec-crypto-ctf-get-started-guide/</link>
-      <pubDate>Thu, 19 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>/blog_posts/blog_posts/tucsec-crypto-ctf-get-started-guide/</guid>
-      <description>&lt;p&gt;![[Pasted image 20241222123845.png]]&lt;/p&gt;&#xA;&lt;h2 id=&#34;cryptography-crypto&#34;&gt;Cryptography (crypto)&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;[ Overview ]&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Discover and exploit vulnerabilities in the implementations of cryptographic algorithms and protocols.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;[ Tools ]&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;I would suggest building your own crypto ctf environment via virtual environments such as Mamba and conda, it would be easier to install python packages and specific versions of them as well as other cryptographic tools such as sage.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.pycryptodome.org&#34;&gt;PyCryptodome&lt;/a&gt; - A very fundamental python library to solve many crypto ctfs&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Crypto CTF guide</title>
       <link>/blog_posts/tucsec-crypto-ctf-get-started-guide/</link>
       <pubDate>Thu, 19 Dec 2024 00:00:00 +0000</pubDate>
       <guid>/blog_posts/tucsec-crypto-ctf-get-started-guide/</guid>
-      <description>&lt;h2 id=&#34;cryptography-crypto&#34;&gt;Cryptography (crypto)&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;[ Overview ]&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Discover and exploit vulnerabilities in the implementations of cryptographic algorithms and protocols.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;[ Tools ]&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;I would suggest building your own crypto ctf environment via virtual environments such as Mamba and conda, it would be easier to install python packages and specific versions of them as well as other cryptographic tools such as sage.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.pycryptodome.org&#34;&gt;PyCryptodome&lt;/a&gt; - A very fundamental python library to solve many crypto ctfs&lt;/p&gt;</description>
+      <description>&lt;p&gt;!&lt;img src=&#34;/images/Pasted%20image%2020241222123845.png&#34; alt=&#34;Image Description&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;cryptography-crypto&#34;&gt;Cryptography (crypto)&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;[ Overview ]&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Discover and exploit vulnerabilities in the implementations of cryptographic algorithms and protocols.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;[ Tools ]&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;I would suggest building your own crypto ctf environment via virtual environments such as Mamba and conda, it would be easier to install python packages and specific versions of them as well as other cryptographic tools such as sage.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.pycryptodome.org&#34;&gt;PyCryptodome&lt;/a&gt; - A very fundamental python library to solve many crypto ctfs&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
